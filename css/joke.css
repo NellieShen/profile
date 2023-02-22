@@ -43,6 +43,7 @@ body {
   text-transform: uppercase;
   width: 300px;
   color: darkgreen;
+  border-color: #e7e7e7;
 }
 
 .btn:hover {

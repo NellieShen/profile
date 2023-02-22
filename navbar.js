@@ -20,6 +20,7 @@ var navbar = `
               <li><a href="#">Tic Tac Toe AI</a></li>
             </ul>
           </li>
+          <li><a href="randomQuote.html">Random Quote Generator</a></li>
           <li><a href="#">To Do list</a></li>
         </ul>
       </li>

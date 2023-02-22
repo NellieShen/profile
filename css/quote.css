@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  width: 90%;
+  margin: 10px;
+  text-align: center;
+  color: rgb(8, 157, 207);
+}
+
+.heading {
+  font-size: 35px;
+  font-weight: 300;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.3);
+  letter-spacing: 2px;
+}
+
+.quote {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 20px;
+}
+
+.author {
+  font-size: 25px;
+  margin: 10px;
+  font-style: italic;
+}
+
+.btn {
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+  margin-top: 15px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
+  width: 300px;
+  color: rgb(8, 157, 207);
+  border-color: #e7e7e7;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+  transition: all 300ms ease-in-out;
+  color: rgb(50, 197, 246);
+}

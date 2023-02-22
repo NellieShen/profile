@@ -1,15 +1,21 @@
 const btnEl = document.getElementById("btn");
 const jokeEl = document.getElementById("joke");
 
+/**
 function getJoke() {
   console.log("clicked");
-}
+} */
 
 /**https://api-ninjas.com/
  * sheep100
  * Password01
  * api key: mxZijLkf9V9Sbx86kwfvqCgvijn3WovHGpH2BtA8
+ *
+ * https://api.api-ninjas.com/v1/dadjokes?limit=1
  * The Dad Jokes API provides thousands of hilarious dad jokes for your entertainment apps.
+ *
+ * https://api.api-ninjas.com/v1/jokes?limit=1
+ * The Jokes API provides funny jokes from the Internet about popculture, science, history and other awesome topics.
  */
 
 const apiKey = "mxZijLkf9V9Sbx86kwfvqCgvijn3WovHGpH2BtA8";
