@@ -9,6 +9,7 @@ function getJoke() {
  * sheep100
  * Password01
  * api key: mxZijLkf9V9Sbx86kwfvqCgvijn3WovHGpH2BtA8
+ * The Dad Jokes API provides thousands of hilarious dad jokes for your entertainment apps.
  */
 
 const apiKey = "mxZijLkf9V9Sbx86kwfvqCgvijn3WovHGpH2BtA8";
