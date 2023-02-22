@@ -1,6 +1,6 @@
 var navbar = ` 
 <header>
-  <a href="../index.html" class="logo">Nellie's Home</a>
+  <a href="index.html" class="logo">Nellie's Home</a>
 
   <input type="checkbox" id="menu-bar" />
   <label for="menu-bar">Menu</label>
