@@ -8,10 +8,10 @@ function getJoke() {
 /**https://api-ninjas.com/
  * sheep100
  * Password01
- * api key: i0EDZiM5n2Dgl+glwh+Ykw==N6RDzmtRiAtzraG4
+ * api key: mxZijLkf9V9Sbx86kwfvqCgvijn3WovHGpH2BtA8
  */
 
-const apiKey = "i0EDZiM5n2Dgl+glwh+Ykw==N6RDzmtRiAtzraG4";
+const apiKey = "mxZijLkf9V9Sbx86kwfvqCgvijn3WovHGpH2BtA8";
 
 const options = {
   method: "GET",
