@@ -12,7 +12,7 @@ var navbar = `
       <li>
         <a href="#">Javascript +</a>
         <ul>
-          <li><a href="/pages/joke.html">Joke of the day</a></li>
+          <li><a href="../pages/joke.html">Joke of the day</a></li>
           <li>
             <a href="#">Tic Tac Toe +</a>
             <ul>
