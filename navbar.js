@@ -21,7 +21,7 @@ var navbar = `
             </ul>
           </li>
           <li><a href="randomQuote.html">Random Quote Generator</a></li>
-          <li><a href="#">To Do list</a></li>
+          <li><a href="toDoList.html">To Do list</a></li>
         </ul>
       </li>
       <li><a href="#">Contact</a></li>

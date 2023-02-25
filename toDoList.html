@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500@display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom css file link    -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/toDoList.css" />
+  </head>
+  <body>
+    <script src="navbar.js"></script>
+    <div class="container">
+      <form class="form" autocomplete="off">
+        <h1 class="heading">Task List <span id="year">2022</span></h1>
+        <!--Enter Plan Task:-->
+        <input
+          class="input"
+          type="text"
+          placeholder="What do you have planned?"
+          autofocus
+        />
+        <div class="date_section">
+          <label for="due_date">Select due date:</label>
+          <input type="date" id="date-picker" />
+          <button id="btn_add_task">Add Task</button>
+        </div>
+        <div class="taskList">To Do Tasks:</div>
+        <ul class="list">
+          <!-- <li class="checked">
+            Buy Milk
+            <i class="fa-solid fa-square-check"></i>
+            <i class="fa-solid fa-trash"></i>
+          </li>
+          <li class="checked">
+            Call Mom
+            <i class="fa-solid fa-square-check"></i>
+            <i class="fa-solid fa-trash"></i>
+          </li> -->
+        </ul>
+      </form>
+    </div>
+    <script src="js/toDoList.js"></script>
+    <script>
+      var date = new Date();
+      var year = date.getFullYear();
+      var month = String(date.getMonth() + 1).padStart(2, "0");
+      var todayDate = String(date.getDate()).padStart(2, "0");
+      var datePattern = year + "-" + month + "-" + todayDate;
+      document.getElementById("date-picker").value = datePattern;
+      document.getElementById("year").innerText = year;
+    </script>
+  </body>
+</html>
