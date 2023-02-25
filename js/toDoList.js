@@ -1,3 +1,15 @@
+/**
+ * localStorage
+localStorage is a global object that is used to store data locally on a user's computer.
+
+It is used to store data in a way that is accessible by the user's web browser.
+
+localStorage is a key-value storage system.
+
+It has a limit of 5MB.
+
+ */
+
 const yearEl = document.getElementById("year");
 const formEl = document.querySelector(".form");
 const inputEl = document.querySelector(".input");
@@ -5,7 +17,7 @@ const ulEl = document.querySelector(".list");
 let list = JSON.parse(localStorage.getItem("list"));
 const dateEl = document.querySelector("#date-picker");
 
-if (Object.keys(list).length > 0) {
+if (localStorage.getItem("list") != null) {
   list.forEach((task) => {
     addTodo(task);
   });
