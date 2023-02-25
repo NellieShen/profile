@@ -5,9 +5,11 @@ const ulEl = document.querySelector(".list");
 let list = JSON.parse(localStorage.getItem("list"));
 const dateEl = document.querySelector("#date-picker");
 
-list.forEach((task) => {
-  addTodo(task);
-});
+if (list.length > 0) {
+  list.forEach((task) => {
+    addTodo(task);
+  });
+}
 
 formEl.addEventListener("submit", (event) => {
   event.preventDefault();
