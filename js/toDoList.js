@@ -5,7 +5,7 @@ const ulEl = document.querySelector(".list");
 let list = JSON.parse(localStorage.getItem("list"));
 const dateEl = document.querySelector("#date-picker");
 
-if (list.count > 0) {
+if (Object.keys(list).length > 0) {
   list.forEach((task) => {
     addTodo(task);
   });
@@ -46,7 +46,7 @@ function addTodo(task) {
 
   let dueDate = dateEl.value;
 
-  liEl.innerText = newTask + " Due date is " + dueDate;
+  liEl.innerText = newTask + " " + dueDate;
   ulEl.appendChild(liEl);
   inputEl.value = "";
   const checkBtnEl = document.createElement("div");
