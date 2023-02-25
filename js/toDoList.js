@@ -5,7 +5,7 @@ const ulEl = document.querySelector(".list");
 let list = JSON.parse(localStorage.getItem("list"));
 const dateEl = document.querySelector("#date-picker");
 
-if (list.length > 0) {
+if (list.count > 0) {
   list.forEach((task) => {
     addTodo(task);
   });
