@@ -48,6 +48,7 @@ div {
 
 .input::placeholder {
   color: lightgrey;
+  font-family: "Roboto Mono", monospace;
 }
 
 input::-webkit-calendar-picker-indicator {

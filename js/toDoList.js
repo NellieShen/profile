@@ -17,6 +17,7 @@ const ulEl = document.querySelector(".list");
 let list = JSON.parse(localStorage.getItem("list"));
 const dateEl = document.querySelector("#date-picker");
 
+//https://www.tutorialstonight.com/to-do-list-javascript
 if (localStorage.getItem("list") != null) {
   list.forEach((task) => {
     addTodo(task);
