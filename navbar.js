@@ -16,7 +16,7 @@ var navbar = `
           <li>
             <a href="#">Tic Tac Toe +</a>
             <ul>
-              <li><a href="#">Tic Tac Toe Simple</a></li>
+              <li><a href="tickTacToe.html">Tic Tac Toe Simple</a></li>
               <li><a href="#">Tic Tac Toe AI</a></li>
             </ul>
           </li>
