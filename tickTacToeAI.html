@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <!-- Custom css file link    -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/ticTacToe.css" />
+  </head>
+  <!--https://www.tutorialstonight.com/tic-tac-toe-javascript
+https://codepen.io/lando464/pen/BPGEKO
+https://github.com/5minute/tic-tac-toe/blob/main/index.html
+https://github.com/angle943/tic-tac-toe/blob/master/app.js-->
+  <body>
+    <script src="navbar.js"></script>
+    <div class="container">
+      <div class="tic-tac-toe">
+        <div class="intro">
+          <h1 class="heading">Tic Tac Toe AI</h1>
+          <p>Click on a square to place your X or O</p>
+          <div class="playerWinInfo">
+            <div class="player">
+              <p>Player 1: X</p>
+              <p>Win <span id="player1WinCounts">0</span> times</p>
+            </div>
+            <div class="player">
+              <p>Computer AI: O</p>
+              <p>Win <span id="player2WinCounts">0</span> times</p>
+            </div>
+          <!-- </div>
+          <div class="playWith">
+            <button
+              id="playBtn"
+              class="btn"
+              value="Play with friend"
+              onclick="changePlayer()"
+            >
+              Play with friend
+            </button>
+          </div> -->
+          <div class="currentPlayerInfo">You are playing with computer AI now.</div>
+          <div class="result">Player 1 Win!</div>
+        </div>
+        <div class="game-grid">
+          <div class="game-cell"></div>
+          <div class="game-cell"></div>
+          <div class="game-cell"></div>
+          <div class="game-cell"></div>
+          <div class="game-cell"></div>
+          <div class="game-cell"></div>
+          <div class="game-cell"></div>
+          <div class="game-cell"></div>
+          <div class="game-cell"></div>
+        </div>
+        <div class="whoseTurn">
+          <div class="turn">Player 1</div>
+          's turn
+        </div>
+        <div class="restart">
+          <button id="startBtn" class="btn" onclick="restartGame()">
+            Start
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="js/ticTacToeAI.js"></script>
+  </body>
+</html>

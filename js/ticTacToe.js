@@ -52,8 +52,8 @@ function handleClick(cell, index) {
       turn.innerHTML = "Player 2";
       // insert into array
       board[Math.floor(index / 3)][index % 3] = playerOne;
-      if (!playWithFriend && spaceLeftFunc()) {
-        checkWinner();
+      checkWinner();
+      if (!playWithFriend && spaceLeftFunc() && gameIsLive) {
         computerMove();
       }
     } else {
