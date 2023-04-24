@@ -13,6 +13,8 @@ var navbar = `
         <a href="#">Javascript +</a>
         <ul>
           <li><a href="joke.html">Joke of the day</a></li>
+          <li><a href="randomQuote.html">Random Quote Generator</a></li>
+          <li><a href="rockPaperScissors.html">Rock Paper Scissors</a></li>
           <li>
             <a href="#">Tic Tac Toe +</a>
             <ul>
@@ -20,7 +22,6 @@ var navbar = `
               <li><a href="tickTacToeAI.html">Tic Tac Toe AI</a></li>
             </ul>
           </li>
-          <li><a href="randomQuote.html">Random Quote Generator</a></li>
           <li><a href="toDoList.html">To Do list</a></li>
         </ul>
       </li>
